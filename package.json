@@ -1,0 +1,27 @@
+{
+  "name": "harumrecusandae",
+  "version": "1.0.0",
+  "description": "Sign permit messages for Ethereum tokens using Ethers",
+  "main": "dist/eth-permit-ethers.js",
+  "types": "dist/eth-permit-ethers.d.ts",
+  "author": "ElzaLeuschke",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KaileeJerde/harumrecusandae.git"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "ts-node": "8.10.2",
+    "typescript": "3.9.7"
+  },
+  "dependencies": {
+    "@types/utf8": "3.0.0",
+    "eth-sig-util": "2.5.3",
+    "ethereumjs-util": "6.2.1",
+    "utf8": "3.0.0"
+  },
+  "homepage": "https://github.com/KaileeJerde/harumrecusandae.git"
+}
